@@ -2,7 +2,7 @@ const file = require("fs");
 const inputFile = process.argv[2];
 const outputFile = process.argv[3];
 
-file.readFile(inputFile, "utf8", function readFileCallback(err, data) {
+file.readFile(inputFile, "utf8", function readFileCallback(_err, data) {
   const regex = /(?:<p[^>]*>)(.*)(?:<\/p*>)/g;
   const matches = data.match(regex).map(function (split1) {
     return split1.split(">").map(function (split2) {
