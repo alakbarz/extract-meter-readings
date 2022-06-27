@@ -19,7 +19,7 @@ This script outputs the readings in a CSV format (without a header):
 ```
 
 3. Save the `<div>` along with its children into a `.html` file
-4. Run the extractor using Node.js. Pass the `.html` file as the first argument and and an arbitrary output file as the second argument
+4. Run the extractor using Node.js. Pass the `.html` file as the first argument and an arbitrary output file as the second argument
 
 ```sh
 node extractReadings.js gas-reading.html gas.csv
