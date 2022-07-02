@@ -13,7 +13,11 @@ This will output the readings in a CSV format (without a header):
 
 ## Using as an Extension
 
-1. Go to meter readings page on Octopus energy
+1. Go to meter readings page on Octopus Energy
+2. Refresh the page so that the extension loads (you'll see a "Download readings" button appear)
+
+<img width="437" alt="image" src="https://user-images.githubusercontent.com/64750210/177008379-8f10a548-f923-476f-917f-301bb647f947.png">
+
 2. Scroll down until you've loaded all of the readings you want to extract
 3. Press the "Download readings" button near the top to download
 
