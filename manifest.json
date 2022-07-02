@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Extract Meter Readings",
+  "version": "1.0",
+  "description": "Extract meter readings from Octopus Energy website to CSV file",
+  "icons": {
+    "320": "barmalay.jpeg"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://octopus.energy/dashboard/new/accounts/*/consumption/properties/*"],
+      "js": ["extractReadings-extension.js"]
+    }
+  ]
+}
