@@ -1,7 +1,9 @@
 # extract-meter-readings
 Extracts meter readings from the HTML of the Octupus Energy meter readings page.
 
-This script outputs the readings in a CSV format (without a header):
+This can be ran locally (`extractReadings.js`) or installed as a [temporary extension on Firefox](https://extensionworkshop.com/documentation/develop/temporary-installation-in-firefox/).
+
+This will output the readings in a CSV format (without a header):
 
 ```
 24th Jun 2022,11054
@@ -9,7 +11,13 @@ This script outputs the readings in a CSV format (without a header):
 30th Apr 2022,10539
 ```
 
-## Instructions
+## Using as an Extension
+
+1. Go to meter readings page on Octopus energy
+2. Scroll down until you've loaded all of the readings you want to extract
+3. Press the "Download readings" button near the top to download
+
+## Running Locally
 
 1. Go to meter readings page on Octopus energy
 2. Find (or inspect element) the `<div>` containing the meter readings
